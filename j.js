@@ -3,5 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelectorAll(".item__visit__btn").forEach(btn => {
             btn.classList.add("rounded");
         });
-    }, 1000);
+    }, 100);
+
+    setTimeout(() => {
+        document.querySelectorAll(".item__visit__btn").forEach(btn => {
+            btn.classList.remove("rounded");
+        });
+    }, 300); 
 });

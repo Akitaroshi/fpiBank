@@ -167,12 +167,15 @@
     color: white;
     transition: 0.3s ease;
     margin-top: auto;
+    border-radius: 12px;
 }
 
 .item__visit__btn:hover {
     background-color: #602aff;
 }
 
+
 .rounded {
-    border-radius: 12px;
+    border-radius: 1px;
+    font-size: 50px;
 }
