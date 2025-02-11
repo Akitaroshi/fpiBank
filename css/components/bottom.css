@@ -164,7 +164,6 @@
     align-items: center;
     padding: 8px 30px;
     border: 1px solid #FFFFFF66;
-    border-radius: 12px;
     color: white;
     transition: 0.3s ease;
     margin-top: auto;
@@ -172,4 +171,8 @@
 
 .item__visit__btn:hover {
     background-color: #602aff;
+}
+
+.rounded {
+    border-radius: 12px;
 }
